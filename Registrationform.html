@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Website Registration Form</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="title" id="title">Website Registration Form</h1>
+    <p id="description">Please fill the form with the necessary details</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name<input placeholder="xxxx" value="xxxxxx xxxxx xxxxxx" type="text" required id="name"/></label>
+        <label id="email-label" for="email">Email<input placeholder="ccccc" value="xxxxxx@email.com" type="email" required id="email"/></label>
+        <label id="number-label" for="number">Age<input min="18" placeholder="xx" value="xx" required max="120" type="number" id="number"/></label>
+        <label for="dropdown">Which option best describes your current role?
+          <select id="dropdown">
+            <option value="">Select Current Role</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Others</option>
+            <option value="5">Prefer Not Say</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <h2 class="recommend">Would you recommend our website to your friends?</h2>
+        <label for="definitely"><input id="definitely" value="D" type="radio" name="choice" class="inline" checked>Definitely</input></label>
+        <label for="maybe"><input id="maybe" type="radio" value="M" name="choice" class="inline"/>Maybe</label>
+        <label for="notsure"><input id="notsure" type="radio" value="N" name="choice" class="inline"/>Not Sure</label>
+      </fieldset>
+      <fieldset>
+        <h1>What do you liked the most on our website?</h1>
+        <input class="box" value="CH" type="checkbox"/>Challengers
+        <input class="box" value="P" type="checkbox"/>Projects
+        <input class="box" value="CO" type="checkbox"/>Community 
+        <input class="box" value="OS" type="checkbox"/>Open Source
+      </fieldset>
+      <fieldset>
+        <label>Any Comments or Suggestions?
+           <textarea placeholder="I want...."></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <button type="submit" id="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
