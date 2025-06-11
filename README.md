@@ -14,6 +14,9 @@ This is a simple responsive website registration form built using HTML and CSS.
 - HTML5
 - CSS3
 
+## Website Overview (Screenshot)
+
+![Image](https://github.com/user-attachments/assets/51f81099-3680-4f2c-ae02-64abedff4bf6)
 
 ## Author
 
